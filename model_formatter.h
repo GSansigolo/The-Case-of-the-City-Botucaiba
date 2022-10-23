@@ -167,12 +167,12 @@ void draw_dialogs(void) {
 
     if (d_pointer == 9){
         if(selected_language == 0){
-          d_n("to travel to the city of Botucaiba,",1);
+          d_n("to travel to the city of Botuca|ba,",1);
             d("in the interior of SXo Paulo. You may",2);
             d("be wondering why a teacher from SXo",3);
         }
         if(selected_language == 1){
-          d_n("Botucaiba, interior de SXo Paulo.Voc~",1);
+          d_n("Botuca|ba, interior de SXo Paulo.Voc~",1);
             d("deve estar se perguntando por que uma",2);
             d("professora de SXo Bento do Oeste iria ",3);
         }
@@ -277,12 +277,12 @@ void draw_dialogs(void) {
 
     if (d_pointer == 17){
         if(selected_language == 0){
-          d_n("Botucaiba.",1);
+          d_n("Botuca|ba.",1);
             d("SXo Paulo - Brazil.",2);
             d("",3);
         }
         if(selected_language == 1){
-          d_n("Botucaiba.",1);
+          d_n("Botuca|ba.",1);
             d("SXo Paulo - Brazil.",2);
             d("",3);
         }
@@ -505,14 +505,14 @@ void draw_dialogs(void) {
 
     if (d_pointer == 33){
         if(selected_language == 0){
-        d_n("What do you want to do?",1);
-          d("  Press B to ask anyone about Julia",2);
-          d("  Press C to walk down the avenue",3);
+          d_n("What do you want to do?",1);
+            d("  Press B to ask anyone about Julia",2);
+            d("  Press C to walk down the avenue",3);
         }
         if(selected_language == 1){
-        d_n("O que voc~ quer fazer",1);
-          d("  Aperte B para perguntar da Julia",2);
-          d("  Aperte C para caminhar pela avenida",3);
+          d_n("O que voc~ quer fazer",1);
+            d("  Aperte B para perguntar da Julia",2);
+            d("  Aperte C para caminhar pela avenida",3);
         }
     }
 
@@ -1368,12 +1368,12 @@ void draw_dialogs(void) {
 
     if (d_pointer == 65){
       if(selected_language == 0){
-        d_n("Botucaiba.",1);
+        d_n("Botuca|ba.",1);
           d("SXo Paulo - Brazil.",2);
           d("",3);
       }
       if(selected_language == 1){
-        d_n("Botucaiba.",1);
+        d_n("Botuca|ba.",1);
           d("SXo Paulo - Brasil.",2);
           d("",3);
       }
@@ -1471,13 +1471,13 @@ void draw_dialogs(void) {
         if(selected_language == 0){
             h("[ Renne ]",1);
                         d("Are you a resident of",1);
-            d("Botucaiba?",2);
+            d("Botuca|ba?",2);
             d("",3);
         }
         if(selected_language == 1){
             h("[ Renne ]",1);
                         d("Voc~ & uma moradora de",1);
-            d("Botucaiba?",2);
+            d("Botuca|ba?",2);
             d("",3);
         }
     }
@@ -1884,7 +1884,7 @@ void draw_dialogs(void) {
         }
         if(selected_language == 1){
             h("[ Julia ]",1);
-                        d("É lindo nXo &?",1);
+                        d("A cidade & linda nXo &?",1);
             d("",2);
             d("",3);
         }
@@ -1969,13 +1969,13 @@ void draw_dialogs(void) {
         if(selected_language == 0){
             h("[ Julia ]",1);
                         d("I wanted to write a story",1);
-            d("about Botucaiba.",2);
+            d("about Botuca|ba.",2);
             d("",3);
         }
         if(selected_language == 1){
             h("[ Julia ]",1);
                         d("Eu queria escrever uma",1);
-            d("mat&ria sobre Botucaiba.",2);
+            d("mat&ria sobre Botuca|ba.",2);
             d("",3);
         }
     }
@@ -2028,15 +2028,15 @@ void draw_dialogs(void) {
     if (d_pointer == 110){
         if(selected_language == 0){
             h("[ Julia ]",1);
-                        d("In the case of Botucaiba,",1);
+                        d("In the case of Botuca|ba,",1);
             d("By default every residential building",2);
             d("have municipal schools, kindergartners,",3);
         }
         if(selected_language == 1){
             h("[ Julia ]",1);
-                        d("No caso de Botucaiba, por",1);
-            d("padrXo todos os edif|cios residenciais",2);
-            d(" t~m escolas municipais, creches,",3);
+                        d("No caso de Botuca|ba, por",1);
+            d("padrXo todos edif|cios residenciais",2);
+            d("t~m escolas municipais, creches,",3);
         }
     }
 
@@ -2094,8 +2094,8 @@ void draw_dialogs(void) {
         }
         if(selected_language == 1){
             h("[ Renne ]",1);
-                        d("Isso parece um sonho,",1);
-            d("tudo de importante pr$ximo a p&.",2);
+                        d("Isso parece um sonho, tudo",1);
+            d("de importante pr$ximo a p&.",2);
             d("",3);
         }
     }
@@ -2125,7 +2125,7 @@ void draw_dialogs(void) {
         if(selected_language == 1){
             h("[ Renne ]",1);
                         d("Agora eu quero ainda mais",1);
-            d("saber por que isso nXo & tXo conhecido.",2);
+            d("saber por que nXo & tXo conhecida.",2);
             d("",3);
         }
     }
@@ -2140,8 +2140,8 @@ void draw_dialogs(void) {
         if(selected_language == 1){
             h("[ Renne ]",1);
                         d("Porque nXo tem um",1);
-            d("document*rio na TV domingo anoite",2);
-            d("falando sobre essa cidade.",3);
+            d("document*rio na TV domingo falando",2);
+            d("sobre essa cidade.",3);
         }
     }
 
@@ -2177,36 +2177,1015 @@ void draw_dialogs(void) {
 
     if (d_pointer == 120){
         if(selected_language == 0){
-            h("[ Julia ]",1);
-                        d("Look at it as a new case.",1);
-            d("",2);
-            d("",3);
+            h("[ Renne ]",1);
+                        d("This is a special case,",1);
+            d("we will need to solve it without",2);
+            d("talking to people.",3);
         }
         if(selected_language == 1){
-            h("[ Julia ]",1);
-                        d("Veja isso como um novo",1);
-            d("caso.",2);
-            d("",3);
+            h("[ Renne ]",1);
+                        d("Esse & um caso especial,",1);
+            d("vamos precisar resolv~-lo sem",2);
+            d("conversar com pessoas.",3);
         }
     }
 
     if (d_pointer == 121){
         if(selected_language == 0){
-            h("[ Renne ]",1);
-                        d("Investigate a city? This",1);
-            d("is a new one.",2);
+            h("[ Julia ]",1);
+                        d("Why?",1);
+            d("",2);
             d("",3);
         }
         if(selected_language == 1){
-            h("[ Renne ]",1);
-                        d("Investigar uma cidade?",1);
-            d("Essa & nova.",2);
+            h("[ Julia ]",1);
+                        d("Por qu~?",1);
+            d("",2);
             d("",3);
         }
     }
 
+    if (d_pointer == 122){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("Because we are in a",1);
+            d("difficult situation, it is as if we",2);
+            d("are the only witnesses.",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Porque estamos em uma",1);
+            d("situa_Xo dif|cil, & como se n$s",2);
+            d("f}ssemos as #nicas testemunhas.",3);
+        }
+    }
 
+    if (d_pointer == 123){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("What do you mean, the only",1);
+            d("witnesses?",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Como assim #nicas",1);
+            d("testemunhas?",2);
+            d("",3);
+        }
+    }
 
+    if (d_pointer == 124){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("I'll explain.",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Eu explico.",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 125){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("People from the outside",1);
+            d("don't know about this city for some",2);
+            d("reason.",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("As pessoas de fora nXo",1);
+            d("sabem dessa cidade por alguma razXo.",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 126){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("The residents of this city",1);
+            d("are not going to help us solve this",2);
+            d("case, because they live here, so they",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Os moradores desta cidade nXo",1);
+            d("vXo nos ajudar a resolver este caso,",2);
+            d("pois eles vivem aqui e por isso nXo",3);
+        }
+    }
+
+    if (d_pointer == 127){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("are not people who don't",1);
+            d("know the city.",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("sXo pessoas que nXo",1);
+            d("conhecem a cidade.",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 128){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("It is the same as",1);
+            d("interviewing a witness from a city",2);
+            d("about a robbery in the city.",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("É  o mesmo que entrevistar",1);
+            d("uma testemunha de uma cidade sobre um",2);
+            d("assalto na cidade.",3);
+        }
+    }
+
+    if (d_pointer == 129){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("I get it. There is nobody",1);
+            d("here who doesn't know the city.",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Entendi. NXo tem ningu&m",1);
+            d("aqui que nXo conhece a cidade.",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 130){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("Exactly, that's why we are",1);
+            d("alone in this.",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Exato, & por isso que",1);
+            d("estamos sozinhas nessa.",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 131){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("Let's put the pieces",1);
+            d("together, what do we know so far?",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Vamos juntar as pe_as, o",1);
+            d("que n$s sabemos at& agora?",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 132){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("How do you know about the",1);
+            d("city?",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Como voc~ sobre da cidade?",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 133){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("By searching for healthier",1);
+            d("cities. I found an articleof the",2);
+            d("the time announced the project.",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Pesquisando por cidades",1);
+            d("habit*vel. Eu encontrei uma mat&ria",2);
+            d("da &poca que noticiava o projeto.",3);
+        }
+    }
+
+    if (d_pointer == 134){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("The project? There was no",1);
+            d("article about the end?",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("O projeto? NXo tinha",1);
+            d("mat&ria sobre o t&rmino?",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 135){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("No, and I looked hard.",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("NXo, e eu procurei",1);
+            d("bastante.",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 136){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("This is a strong clue.",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Isso & uma pista forte.",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 137){
+        if(selected_language == 0){
+          d_n("What do you want to do?",1);
+            d("  Press B to ask about industrias",2);
+            d("  Press C to ask about the mayor",3);
+        }
+        if(selected_language == 1){
+          d_n("O que voc~ quer fazer",1);
+            d("  Aperte B perguntar sobre industrias",2);
+            d("  Aperte C perguntas sobre o prefeito",3);
+        }
+    }
+
+    // INDUSTRY
+
+    if (d_pointer == 2138){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("What do you know about",1);
+            d("the industry in the region?",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("O que voc~ sabe sobre a",1);
+            d("ind#stria na regiXo?",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 2139){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("It's pretty normal, a few",1);
+            d("big factories here and there, but",2);
+            d("that's about it.",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Ela & bem normal, algumas",1);
+            d("f*bricas grandes aqui e ali, mas s$",2);
+            d("isso.",3);
+        }
+    }
+
+    if (d_pointer == 2140){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("What kind of factories?",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Que tipos de f*bricas?",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 2141){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("To the east is a paper",1);
+            d("company, to the west is a candy",2);
+            d("factory.",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("A leste temos fabrica de",1);
+            d("papel, a oeste tem fabrica de doces.",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 2142){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("To the north we have a",1);
+            d("Wolff automobile factory, and to the",2);
+            d("south we have a technology park.",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Ao norte tem uma f*brica",1);
+            d("de autom$veis Wolff, e a sul tem um",2);
+            d("parque tecnol$gico.",3);
+        }
+    }
+
+    if (d_pointer == 2143){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("Two of these four don't",1);
+            d("seem to have any interference at",2);
+            d("first.",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Duas dessas quatro nXo",1);
+            d("parecem ter nenhuma interfer~ncia a",2);
+            d("princ|pio.",3);
+        }
+    }
+
+    if (d_pointer == 2144){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("But I dare say that even",1);
+            d("they do.",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Por&m eu ouso dizer que",1);
+            d("mesmo elas tem.",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 2145){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("Elaborate.",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Elabore.",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 2146){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("First. When was the",1);
+            d("article you read about?",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Primeiro. De quando era",1);
+            d("a mat&ria que voc~ leu?",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 2147){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("August 2000.",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Agosto de 2000.",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 2148){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("I see. So the new",1);
+            d("neighborhood has been here for twenty",2);
+            d("years.",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Entendi. EntXo o bairro",1);
+            d("novo est* aqui a vinte anos. ",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 2149){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("I bet you that three of",1);
+            d("these four factories you mentioned",2);
+            d("are from before 2000.",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Eu aposto com voc~ que",1);
+            d("tr~s dessas quatro f*bricas que voc~",2);
+            d("citou sXo de antes de 2000.",3);
+        }
+    }
+
+    if (d_pointer == 2150){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("They all are. When I did",1);
+            d("the data collection for the article,",2);
+            d("I looked for industries in the area.",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Todas sXo. Quando fiz o",1);
+            d("levantamento de dados do artigo,",2);
+            d("procurei por ind#strias da regiXo.",3);
+        }
+    }
+
+    if (d_pointer == 2151){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("I get it.",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Entendi.",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    // MAYOR
+
+    if (d_pointer == 3138){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("What do you know about",1);
+            d("the mayor of the city?",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("O que voc~ sabe sobre ao",1);
+            d("prefeito da cidade?",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 3139){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("He is normal, leadership",1);
+            d("of an affordable housing movement,",2);
+            d("was in power for 8 years.",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Ele & normal, lideran_a um",1);
+            d("movimento de moradias populares,",2);
+            d("ficou no poder por 8 anos.",3);
+        }
+    }
+
+    if (d_pointer == 3140){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("Interesting. Do you",1);
+            d("have this kind of politician a lot in",2);
+            d("the region?",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Interessante. Esse tipo",1);
+            d("de pol|tico tem muito na regiXo?",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 3141){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("No, the interior of SXo",1);
+            d("Paulo doesn't usually have politicians",2);
+            d("like this.",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("NXo, o interior de SXo",1);
+            d("Paulo nXo costumo ter pol|ticos assim.",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 3142){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("For example, all the",1);
+            d("neighboring cities have mayors coming",2);
+            d("from the industry.",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Por exemplo, todas as",1);
+            d("cidades vizinhas t~m prefeitos vindos",2);
+            d("da ind#stria.",3);
+        }
+    }
+
+    if (d_pointer == 3143){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("From automobile with Wolff,",1);
+            d("there are paper companies and candy",2);
+            d("companies.",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Desde automobil|stica com",1);
+            d("a Wolff, h* empresas de papel e",2);
+            d("empresas de doce.",3);
+        }
+    }
+
+    if (d_pointer == 3144){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("There is also a",1);
+            d("scientific pole to the south, with a",2);
+            d("technology park.",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Tamb&m tem um polo",1);
+            d("cient|fico ao sul, com um parque",2);
+            d("tecnol$gico.",3);
+        }
+    }
+
+    if (d_pointer == 3145){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("I can think of something",1);
+            d("that connects all the leaderships in",2);
+            d(" the region.",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Consigo pensar um uma",1);
+            d("coisa que conecta todas as lideran_as",2);
+            d("da regiXo.",3);
+        }
+    }
+
+    if (d_pointer == 3146){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("Elaborate.",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Elabore.",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 3147){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("First. When was the",1);
+            d("article you read about?",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Primeiro. De quando era",1);
+            d("a mat&ria que voc~ leu?",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 3148){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("August 2000.",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Agosto de 2000.",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 3149){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("That means that this city",1);
+            d("has been slowly forgotten for twenty",2);
+            d("years.",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Isso significa que tem",1);
+            d("vinte anos que essa cidade est* sendo",2);
+            d("vagarosamente esquecida.",3);
+        }
+    }
+
+    if (d_pointer == 3150){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("So it seems.",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Parece que sim.",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 3151){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("I am starting to connect",1);
+            d("things.",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Estou come_ando a conectar",1);
+            d("os pontos.",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 152){
+        if(selected_language == 0){
+          d_n("You turned toward the city.",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+          d_n("Voc~ se virou para a cidade.",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 153){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("I have so many theories.",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Eu tenho tantas teorias.",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 154){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("Julia, I think we are very",1);
+            d("close to the answer.",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Julia eu acho que estamos",1);
+            d("muito perto da resposta.",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 155){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("What we can't see.",1);
+            d("close to the answer.",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("O que nXo estamos",1);
+            d("conseguindo ver.",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 156){
+        if(selected_language == 0){
+          d_n("You and Julia stared at the horizon",1);
+            d("for minutes.",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+          d_n("Voc~ e Julia ficaram observando o",1);
+            d("horizonte por minutos.",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 157){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("If it weren't for SXo",1);
+            d("Bento do Oeste and everything I've",2);
+            d("built there.",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Se nXo fosse por SXo",1);
+            d("Bento do Oeste e tudo que constru|",2);
+            d("l*.",3);
+        }
+    }
+
+    if (d_pointer == 158){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("I would love to live here.",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Eu adoraria morar aqui.",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 159){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("Me too. It's a very unique",1);
+            d("city. And I could still live near you",2);
+            d("again.",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Eu tamb&m. É uma cidade",1);
+            d("muito #nica. E eu ainda poderia morar",2);
+            d("perto de voc~ de novo.",3);
+        }
+    }
+
+    if (d_pointer == 160){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("Maybe there aren't more",1);
+            d("like it all over Brazil.",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Quem sabe nXo existam",1);
+            d("mais como essa o Brazil a dentro.",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 161){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("Maybe.",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Quem sabe.",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 162){
+        if(selected_language == 0){
+          d_n("You and Julia spent minutes talking",1);
+            d("about life.",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+          d_n("Voc~ e Julia ficaram minutos",1);
+            d("conversando sobre a vida.",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 163){
+        if(selected_language == 0){
+          d_n("Until..",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+          d_n("At& que..",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 164){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("Julia what is that?",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Julia o que & aquilo?",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 165){
+        if(selected_language == 0){
+          d_n("You pointed to a building in the city.",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+          d_n("Voc~ apontou para um pr&dio da cidade.",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+  if (d_pointer == 166){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("It is a commercial",1);
+            d("building.",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("É um pr&dio comercial. ",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 167){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("So in addition to",1);
+            d("everything you said there are jobs",2);
+            d("near the houses?",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("EntXo al&m de tudo que",1);
+            d("voc~ falou pr$ximo das moradias tem",2);
+            d("trabalho pr$ximo?",3);
+        }
+    }
+
+    if (d_pointer == 168){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("Yes, that is one of the",1);
+            d("main points of this city model. Having",2);
+            d("work within a 15-minute walk.",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Sim, essa & um dos",1);
+            d("principais pontos desse modelo de",2);
+            d("cidade. O trabalho ficar 15 min a p*.",3);
+        }
+    }
+
+    if (d_pointer == 169){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("I need to see more about",1);
+            d("this.",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Eu preciso ver mais sobre",1);
+            d("isso.",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 170){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("You were in the city,",1);
+            d("right?",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Voc~ estava na cidade n&?",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+  if (d_pointer == 171){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("Yes, I was",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Sim, eu estava.",1);
+            d("",2);
+            d("",3);
+        }
+    }
+
+    if (d_pointer == 172){
+        if(selected_language == 0){
+            h("[ Renne ]",1);
+                        d("Did you take pictures? I",1);
+            d("wanted to see some pictures.",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Renne ]",1);
+                        d("Voc~ tirou fotos? Eu",1);
+            d("queria ver algumas fotos.",2);
+            d("",3);
+        }
+    }
+
+  if (d_pointer == 173){
+        if(selected_language == 0){
+            h("[ Julia ]",1);
+                        d("Sure.",1);
+            d("",2);
+            d("",3);
+        }
+        if(selected_language == 1){
+            h("[ Julia ]",1);
+                        d("Claro.",1);
+            d("",2);
+            d("",3);
+        }
+    }
 
 }
 

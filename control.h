@@ -34,7 +34,7 @@ void controller(){
     if (jo_is_pad1_key_down(JO_KEY_START) && start_menu == 1){
         start_menu = 0;
         clear_screen();
-        d_pointer = 62;
+        d_pointer = 3149;
         start();
     }
 
@@ -71,6 +71,8 @@ void controller(){
             clear_screen();
             set_background("CITY1.TGA", "BG");
             clear_screen();
+            //jo_audio_stop_cd();
+            //jo_audio_play_cd_track(4, 4, true);
             d_pointer = 17;
         }
 
@@ -136,10 +138,54 @@ void controller(){
             d_pointer = 104;
         }
 
+        if (d_pointer == 2152){
+            d_pointer = 152;
+        }
+
+        if (d_pointer == 3152){
+            d_pointer = 152;
+        }
+
+        if (d_pointer == 152){
+            clear_screen();
+            set_background("CITY2.TGA", "BG");
+            clear_screen();
+            //jo_audio_stop_cd();
+            //jo_audio_play_cd_track(4, 4, true);
+            d_pointer = 152;
+        }
+
+        if (d_pointer == 164){
+            clear_screen();
+            set_background("CITY4.TGA", "BG");
+            clear_screen();
+            //jo_audio_stop_cd();
+            //jo_audio_play_cd_track(4, 4, true);
+            d_pointer = 164;
+        }
+
         //choices
         else if (d_pointer == 33){
             clear_screen();
+            //jo_audio_stop_cd();
+            //jo_audio_play_cd_track(4, 4, true);
             choice_pause = 1;
+        }
+
+        else if (d_pointer == 137){
+            clear_screen();
+            //jo_audio_stop_cd();
+            //jo_audio_play_cd_track(4, 4, true);
+            choice_pause = 1;
+        }
+
+        if (d_pointer == 164){
+            clear_screen();
+            set_background("CITY7.TGA", "BG");
+            clear_screen();
+            //jo_audio_stop_cd();
+            //jo_audio_play_cd_track(4, 4, true);
+            d_pointer = 164;
         }
 
         //pointer++
@@ -150,6 +196,8 @@ void controller(){
     if (jo_is_pad1_key_down(JO_KEY_B) && d_pointer == 33 && choice_pause == 1){
         //jo_font_printf(my_font, 6, 6, 1.0f, "%d", d_pointer);
         clear_screen();
+        //jo_audio_stop_cd();
+        //jo_audio_play_cd_track(4, 4, true);
         choice_pause = 0;
         d_pointer = 2034;
     }
@@ -157,10 +205,29 @@ void controller(){
     if (jo_is_pad1_key_down(JO_KEY_C) && d_pointer == 33 && choice_pause == 1){
         //jo_font_printf(my_font, 6, 6, 1.0f, "%d", d_pointer);
         clear_screen();
+        //jo_audio_stop_cd();
+        //jo_audio_play_cd_track(4, 4, true);
         choice_pause = 0;
         d_pointer = 3034;
     }
 
+    if (jo_is_pad1_key_down(JO_KEY_B) && d_pointer == 137 && choice_pause == 1){
+        //jo_font_printf(my_font, 6, 6, 1.0f, "%d", d_pointer);
+        clear_screen();
+        //jo_audio_stop_cd();
+        //jo_audio_play_cd_track(4, 4, true);
+        choice_pause = 0;
+        d_pointer = 2138;
+    }
+
+    if (jo_is_pad1_key_down(JO_KEY_C) && d_pointer == 137 && choice_pause == 1){
+        //jo_font_printf(my_font, 6, 6, 1.0f, "%d", d_pointer);
+        clear_screen();
+        //jo_audio_stop_cd();
+        //jo_audio_play_cd_track(4, 4, true);
+        choice_pause = 0;
+        d_pointer = 3138;
+    }
 }
 
 #endif
