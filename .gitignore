@@ -1,0 +1,8 @@
+cd/0.bin
+*.o
+*.bin
+*.coff
+*.elf
+*.map
+*.iso
+*.cue
